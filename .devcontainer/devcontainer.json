@@ -1,0 +1,12 @@
+{
+    "name": "Minecraft Server Java 25",
+    "image": "://microsoft.com",
+    "features": {
+        "ghcr.io/devcontainers/features/java:1": {
+            "version": "25",
+            "jdkDistro": "oracle"
+        }
+    },
+    "forwardPorts":,
+    "postCreateCommand": "sudo apt update && sudo apt install -y curl wget file tar bzip2 gzip unzip bsdmainutils python3 util-linux ca-certificates binutils bc jq tmux netcat-openbsd lib32gcc-s1 lib32stdc++6"
+}
